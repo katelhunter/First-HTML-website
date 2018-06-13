@@ -4,75 +4,81 @@
 	<title>Reporting your lost pet</title>
 </head>
 <body>
-<a href="index.html">Welcome</a>&nbsp;&nbsp;&nbsp;<a href="newpage1.html">Am I ready?</a>&nbsp;&nbsp;&nbsp;<a href="newpage2.html">Adopt me!</a>
 	<header>
-		<h2>Report your lost pet</h2>
+		<nav>
+			<a href="index.html">Welcome</a><br>
+			<a href="newpage1.html">Am I ready?</a><br>
+			<a href="newpage2.html">Adopt me!</a><br>
+		</nav>
 	</header>
-	<p>Submit the form below to report your lost pet. Please be as detailed as possible when filling out the form.</p>
-	<form>
-		<fieldset>
-		<legend>Help us find your loved one</legend>
-		First Name:<br>
-		<input type="text" name="firstname"><br><br>
-		Last Name:<br>
-		<input type="text" name="lastname"><br><br>
-		Email:<br>
-		<input type="email" name="email" required><br><br>
-		Phone:<br>
-		<input type="text" name="phone" required><br><br>
-		Type of pet:<br>
-		<input type="radio" name="pettype" value="dog" required>Dog<br>
-		<input type="radio" name="pettype" value="cat" required>Cat<br>
-		<input type="radio" name="pettype" value="critter" required>Critter<br><br>
-		On which date did you lose your pet?<br>
-		<input type="date" name="date"><br><br>
+	<section>
 		<header>
-			<h3>Describe your pet<hr></h3>
+			<h2>Report your lost pet</h2>
+			<p>Submit the form below to report your lost pet. Please be as detailed as possible when filling out the form.</p>
 		</header>
-		What is the name of your lost pet?<br>
-		<input type="text" name="petname"><br><br>
-		Address or cross street where pet was last seen:<br>
-		<input type="text" name="address" placeholder="Street Name"><br>
-		<input type="text" name="address" placeholder="City, State">
-		<input type="text" name="address" placeholder="Zip Code" maxlength="5"><br><br>
-		Gender:<br>
-		<select name="gender">
-			<option name="gender" value="please select">Please select</option>
-			<option name="gender" value="female">Female</option>
-			<option name="gender" value="male">Male</option>
-		</select><br><br>
-		Approximate age:<br>
-		<select name="gender">
-			<option name="age" value="please select">Please select</option>
-			<option name="age" value="young">Young (<1 year)</option>
-			<option name="age" value="older">Older (>1 year)</option>
-		</select><br><br>
-		Size:<br>
-		<select name="size">
-			<option name="size" value="please select">Please select</option>
-			<option name="size" value="toy">Toy</option>
-			<option name="size" value="small">Small</option>
-			<option name="size" value="medium">Medium</option>
-			<option name="size" value="large">Large</option>
-			<option name="size" value="extra large">Extra large</option>
-		</select><br><br>
-		Coat:<br>
-		<select name="coat">
-			<option name="coat" value="please select">Please select</option>
-			<option name="coat" value="curly">Curly</option>
-			<option name="coat" value="wire">Wire</option>
-			<option name="coat" value="long silky">Long (silky)</option>
-			<option name="coat" value="long thick">Long (thick)</option>
-			<option name="coat" value="medium">Medium</option>
-			<option name="coat" value="short flat">Short (flat)</option>
-			<option name="coat" value="short thick">Short (thick)</option>
-		</select><br><br>
-		Please describe your pet in the box below:<br>
-		<em>Remember to mention any unique attributes that would help identify your pet (i.e. distinctive markings, the type of collar, ID tags).</em><br>
-		<textarea rows="4" cols="42" placeholder="I would best describe my pet as..."></textarea><br><br>
-		<input type="submit" value="Submit">
-		<input type="reset" value="Reset">
-		</fieldset>
+		<form>
+		<fieldset>
+			<legend>Help us find your loved one</legend>
+			First Name:<br>
+			<input type="text" name="firstname"><br><br>
+			Last Name:<br>
+			<input type="text" name="lastname"><br><br>
+			Email:<br>
+			<input type="email" name="email" required><br><br>
+			Phone:<br>
+			<input type="text" name="phone" required><br><br>
+			Type of pet:<br>
+			<input type="radio" name="pettype" value="dog" required>Dog<br>
+			<input type="radio" name="pettype" value="cat" required>Cat<br>
+			<input type="radio" name="pettype" value="critter" required>Critter<br><br>
+			On which date did you lose your pet?<br>
+			<input type="date" name="date"><br><br>
+			<h3>Describe your pet<hr></h3>
+			What is the name of your lost pet?<br>
+			<input type="text" name="petname"><br><br>
+			Address or cross street where pet was last seen:<br>
+			<input type="text" name="address" placeholder="Street Name"><br>
+			<input type="text" name="address" placeholder="City, State">
+			<input type="text" name="address" placeholder="Zip Code" maxlength="5"><br><br>
+			Gender:<br>
+			<select name="gender">
+				<option name="gender" value="please select">Please select</option>
+				<option name="gender" value="female">Female</option>
+				<option name="gender" value="male">Male</option>
+			</select><br><br>
+			Approximate age:<br>
+			<select name="gender">
+				<option name="age" value="please select">Please select</option>
+				<option name="age" value="young">Young (<1 year)</option>
+				<option name="age" value="older">Older (>1 year)</option>
+			</select><br><br>
+			Size:<br>
+			<select name="size">
+				<option name="size" value="please select">Please select</option>
+				<option name="size" value="toy">Toy</option>
+				<option name="size" value="small">Small</option>
+				<option name="size" value="medium">Medium</option>
+				<option name="size" value="large">Large</option>
+				<option name="size" value="extra large">Extra large</option>
+			</select><br><br>
+			Coat:<br>
+			<select name="coat">
+				<option name="coat" value="please select">Please select</option>
+				<option name="coat" value="curly">Curly</option>
+				<option name="coat" value="wire">Wire</option>
+				<option name="coat" value="long silky">Long (silky)</option>
+				<option name="coat" value="long thick">Long (thick)</option>
+				<option name="coat" value="medium">Medium</option>
+				<option name="coat" value="short flat">Short (flat)</option>
+				<option name="coat" value="short thick">Short (thick)</option>
+			</select><br><br>
+			Please describe your pet in the box below:<br>
+			<em>Remember to mention any unique attributes that would help identify your pet (i.e. distinctive markings, the type of collar, ID tags).</em><br>
+			<textarea rows="4" cols="42" placeholder="I would best describe my pet as..."></textarea><br><br>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+	</fieldset>
 	</form>
+</section>
 </body>
 </html>
